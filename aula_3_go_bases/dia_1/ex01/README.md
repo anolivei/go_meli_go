@@ -1,4 +1,4 @@
-## Exercício 1 - Guardar arquivo
+# Exercício 1 - Guardar arquivo
 Uma empresa que vende produtos de limpeza precisa de:
 
 1. Implementar uma funcionalidade para guardar um arquivo de texto, com a

@@ -1,4 +1,4 @@
-### Exercício 2 - Ler arquivo
+# Exercício 2 - Ler arquivo
 A mesma empresa precisa ler o arquivo armazenado, para isso exige que:
 
 Seja impresso na tela os valores tabelados, com:
