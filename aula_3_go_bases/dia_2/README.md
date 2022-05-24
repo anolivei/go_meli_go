@@ -7,10 +7,10 @@ Seja impresso na tela os valores tabelados, com:
 - a quantidade
 - abaixo do preço o total deve ser exibido (somando preço por quantidade)
 
-Exemplo:
-ID Preco Quantidade
-111223 30012.00 1
-444321 1000000.00 4
-434321 50.50 1
-
-4030062.50
+Exemplo:<br>
+ID Preco Quantidade<br>
+111223 30012.00 1<br>
+444321 1000000.00 4<br>
+434321 50.50 1<br>
+<br>
+4030062.50<br>
