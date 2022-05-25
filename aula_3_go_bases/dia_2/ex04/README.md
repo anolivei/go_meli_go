@@ -26,9 +26,9 @@ variave3 := rand.Perm(10000)
 ````
 
 Cada um deve ser ordenado por:
-- Inserção
-- grupo
-- seleção
+- [Inserção] (https://www.golangprograms.com/golang-program-for-implementation-of-insertionsort.html)
+- [Grupo]
+- [Seleção](https://www.golangprograms.com/golang-program-for-implementation-of-selection-sort.html)
 
 Uma rotina para cada execução de classificação.
 

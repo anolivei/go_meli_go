@@ -25,7 +25,6 @@ func somarProdutos(p []produtos, out chan<- float64) {
 		total += (prod.preco * float64(prod.quantidade))
 	}
 	out <- total
-	close(out)
 }
 
 func somarServicos(s []servicos, out chan<- float64) {
@@ -37,7 +36,6 @@ func somarServicos(s []servicos, out chan<- float64) {
 		total += (serv.preco * float64(serv.minTrabalhados / 60))
 	}
 	out <- total
-	close(out)
 }
 
 func somarManutencao(m []manutencao, out chan<- float64) {
@@ -46,7 +44,6 @@ func somarManutencao(m []manutencao, out chan<- float64) {
 		total += man.preco
 	}
 	out <- total
-	close(out)
 }
 
 func main() {
