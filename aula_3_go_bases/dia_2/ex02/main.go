@@ -33,9 +33,13 @@ func main() {
 	u := usuario{"Joao", "das Neves", "jdasneves@gmail.com", nil}
 	p1 := novoProduto("notebook", 5000)
 	adicionarProduto(&u, &p1, 100)
+
 	p2 := novoProduto("geladeira", 3000)
 	adicionarProduto(&u, &p2, 100)
+
 	fmt.Println(u.produtos)
+
 	deletarProduto(&u)
+	
 	fmt.Println(u.produtos)
 }

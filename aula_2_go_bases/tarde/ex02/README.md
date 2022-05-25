@@ -25,7 +25,8 @@ nome e preço, e devolva um Produto.
 - Será necessário uma função “novaLoja” que retorne um Ecommerce.
 
 ### Interface Produto:
-- Deve possuir o método “CalcularCusto”, onde o mesmo deverá calcular o custo adicional segundo o tipo de produto.
+- Deve possuir o método “CalcularCusto”, onde o mesmo deverá calcular o custo
+adicional segundo o tipo de produto.
 
 ### Interface Ecommerce:
 - Deve possuir o método “Total”, onde o mesmo deverá retornar o preço total com
