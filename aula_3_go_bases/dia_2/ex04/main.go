@@ -26,7 +26,7 @@ func orderByIsercao(items []int, out chan<- time.Duration) {
 		}
 	}
 	t2 := time.Now()
-	fmt.Println("insercao", t2.Sub(t1))
+	fmt.Println("insercao", len(items), t2.Sub(t1))
 	out <- t2.Sub(t1)
 }
 
@@ -34,7 +34,7 @@ func orderByGrupo(items []int, out chan<- time.Duration) {
 	t1 := time.Now()
 	sort.Ints(items)
 	t2 := time.Now()
-	fmt.Println("grupo", t2.Sub(t1))
+	fmt.Println("grupo", len(items), t2.Sub(t1))
 	out <- t2.Sub(t1)
 }
 
@@ -51,23 +51,32 @@ func orderBySelecao(items []int, out chan<- time.Duration) {
 		items[i], items[minIdx] = items[minIdx], items[i]
 	}
 	t2 := time.Now()
-	fmt.Println("selecao", t2.Sub(t1))
+	fmt.Println("selecao", len(items), t2.Sub(t1))
 	out <- t2.Sub(t1)
 }
 
 func order(numCem []int, numMil []int, numDezMil []int, tipo string, out chan<- time.Duration) {
 	switch tipo {
 	case insercao:
+		defer
 		orderByIsercao(numCem, out)
+		defer
 		orderByIsercao(numMil, out)
+		defer
 		orderByIsercao(numDezMil, out)
 	case grupo:
+		defer
 		orderByGrupo(numCem, out)
+		defer
 		orderByGrupo(numMil, out)
+		defer
 		orderByGrupo(numDezMil, out)
 	case selecao:
+		defer
 		orderBySelecao(numCem, out)
+		defer
 		orderBySelecao(numMil, out)
+		defer
 		orderBySelecao(numDezMil, out)
 	}
 }
