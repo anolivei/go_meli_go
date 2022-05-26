@@ -32,7 +32,9 @@ func checkError(f funcionario) {
 				f.valorHora)
 	str, err := calcSalario(f.horasTrabalhadas, f.valorHora)
 	if err != nil {
-		fmt.Println(errors.Unwrap(err))
+		e1 := fmt.Errorf("err: %w", err)
+		e2 := fmt.Errorf("e1: %w", e1)
+		fmt.Println(errors.Unwrap(e2))
 		return
 	}
 	fmt.Println("salario:", str)
