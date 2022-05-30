@@ -25,7 +25,7 @@ func getById(usuarios []usuario)(gin.HandlerFunc) {
 	fn := func(c *gin.Context) {
 		id := c.Query("id")
 		id2, err := strconv.Atoi(id)
-		if err != nil {
+		if err != nil && id != "" {
 			c.JSON(http.StatusInternalServerError, gin.H{
 				"message": "id is not a number",
 			})
@@ -42,6 +42,15 @@ func getById(usuarios []usuario)(gin.HandlerFunc) {
 		c.JSON(http.StatusNotFound, gin.H{
 			"message": "id not found",
 		})
+	}
+	return gin.HandlerFunc(fn)
+}
+
+func getAll(usuarios []usuario)(gin.HandlerFunc) {
+	fn := func(c *gin.Context) {
+		for _, u := range usuarios {
+			c.JSON(200, u)
+		}
 	}
 	return gin.HandlerFunc(fn)
 }
@@ -76,6 +85,10 @@ func main() {
 	u := createMatrixUsers()
 	gin.SetMode("release")
 	router := gin.Default()
-	router.GET("users", getById(u))
+	group := router.Group("users")
+	{
+		group.GET("", getAll(u))
+		group.GET("filter", getById(u))
+	}
 	router.Run()
 }
