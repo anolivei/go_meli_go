@@ -15,7 +15,7 @@ type usuario struct {
 	Idade int `json:"idade"`
 	Altura float32 `json:"altura"`
 	Ativo bool `json:"ativo"`
-	DataDeCriacao string `json:"data_de_criacao"`
+	DataCriacao string `json:"datacriacao"`
 }
 
 func getAll(c *gin.Context) {
@@ -27,7 +27,7 @@ func getAll(c *gin.Context) {
 		"Idade": 30,
 		"Altura": 1.75,
 		"Ativo": true,
-		"DataDeCriacao": "28/05/2022"},
+		"DataCriacao": "28/05/2022"},
 		{"Id": 444,
 		"Nome": "Joao",
 		"Sobrenome": "das Neves",
@@ -35,14 +35,14 @@ func getAll(c *gin.Context) {
 		"Idade": 30,
 		"Altura": 1.75,
 		"Ativo": true,
-		"DataDeCriacao": "28/05/2022"}]`
+		"DataCriacao": "28/05/2022"}]`
 
 	var u []usuario
 
 	if err := json.Unmarshal([]byte(jsonData), &u); err != nil {
 		log.Fatal(err)
 	}
-	for _, i := range u{
+	for _, i := range u {
 		c.JSON(200, i)
 	}
 }
