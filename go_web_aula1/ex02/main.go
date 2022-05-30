@@ -1,9 +1,14 @@
 package main
 
-import "github.com/gin-gonic/gin"
+import (
+	"os"
+	"github.com/gin-gonic/gin"
+)
 
 func getHello(c *gin.Context) {
-	c.JSON(200, gin.H{"mensagem": "Olá Angélica",})
+	user := os.Getenv("USER")
+	str := "Olá " + user
+	c.JSON(200, gin.H{"mensagem": str,})
 }
 
 func main() {
