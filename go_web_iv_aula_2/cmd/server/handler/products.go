@@ -27,6 +27,10 @@ type request struct {
 	Price float64 `json:"price"`
 }
 
+type requestName struct {
+	Name string `json:"name"`
+}
+
 type Product struct {
 	service products.Service
 }
@@ -98,6 +102,19 @@ func (prod *Product) Store() gin.HandlerFunc {
 	return fn
 }
 
+// UpdateProducts godoc
+// @Summary Update products by ID
+// @Tags Products
+// @Description update products
+// @Accept  json
+// @Produce  json
+// @Param token header string true "token"
+// @Param some_id path int true "Some ID"
+// @Param product body request true "Product to update"
+// @Success 200 {object} web.Response
+// @Failure 400 {object} web.Response "We need ID"
+// @Failure 404 {object} web.Response "Can not find ID"
+// @Router /products/{some_id} [PUT]
 func (prod *Product) Update() gin.HandlerFunc {
 	fn := func(c *gin.Context) {
 		token := c.GetHeader("token")
@@ -153,6 +170,19 @@ func (prod *Product) Update() gin.HandlerFunc {
 	return fn
 }
 
+// UpdateNameProducts godoc
+// @Summary Update name products by ID
+// @Tags Products
+// @Description update the name of the products by ID
+// @Accept  json
+// @Produce  json
+// @Param token header string true "token"
+// @Param some_id path int true "Some ID"
+// @Param product body requestName true "Product to update name"
+// @Success 200 {object} web.Response
+// @Failure 400 {object} web.Response "We need ID"
+// @Failure 404 {object} web.Response "Can not find ID"
+// @Router /products/{some_id} [PATCH]
 func (prod *Product) UpdateName() gin.HandlerFunc {
 	fn := func(c *gin.Context) {
 		token := c.GetHeader("token")
@@ -167,7 +197,7 @@ func (prod *Product) UpdateName() gin.HandlerFunc {
 				web.NewResponse(http.StatusBadRequest, nil, ERROR_ID))
 			return
 		}
-		var req request
+		var req requestName
 		if err := c.ShouldBindJSON(&req); err != nil {
 			c.JSON(http.StatusBadRequest,
 				web.NewResponse(http.StatusBadRequest, nil, err.Error()))
@@ -189,6 +219,18 @@ func (prod *Product) UpdateName() gin.HandlerFunc {
 	return fn
 }
 
+// DeleteProducts godoc
+// @Summary Delete products by ID
+// @Tags Products
+// @Description delete products by ID
+// @Accept  json
+// @Produce  json
+// @Param token header string true "token"
+// @Param some_id path int true "Some ID"
+// @Success 200 {object} web.Response
+// @Failure 400 {object} web.Response "We need ID"
+// @Failure 404 {object} web.Response "Can not find ID"
+// @Router /products/{some_id} [DELETE]
 func (prod *Product) Delete() gin.HandlerFunc {
 	fn := func(c *gin.Context) {
 		token := c.GetHeader("token")

@@ -1,14 +1,7 @@
 [
   {
-    "id": 2,
-    "name": "mandioca",
-    "type": "comida",
-    "count": 100,
-    "price": 10.75
-  },
-  {
     "id": 3,
-    "name": "arroz",
+    "name": "ola",
     "type": "comida",
     "count": 200,
     "price": 20.25
@@ -25,6 +18,13 @@
     "name": "legumes",
     "type": "comida",
     "count": 200,
+    "price": 0
+  },
+  {
+    "id": 7,
+    "name": "string",
+    "type": "string",
+    "count": 0,
     "price": 0
   }
 ]
