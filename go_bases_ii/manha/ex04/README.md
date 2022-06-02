@@ -1,3 +1,5 @@
+# Exercício 4 - Cálculo de estatísticas
+
 Os professores de uma universidade na Colômbia precisam calcular algumas
 estatísticas de notas dos alunos de um curso, sendo necessário calcular
 os valores mínimo, máximo e médio de suas notas.

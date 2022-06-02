@@ -1,5 +1,7 @@
-Uma empresa marítima precisa calcular o salário de seus funcionários com base no
-número de horas trabalhadas por mês e na categoria do funcionário.
+# Exercício 3 - Calcular salário
+
+Uma empresa marítima precisa calcular o salário de seus funcionários com base
+no número de horas trabalhadas por mês e na categoria do funcionário.
 
 - Se a categoria for C, seu salário é de R$1.000 por hora;
 - Se a categoria for B, seu salário é de $1.500 por hora mais 20% caso tenha 
