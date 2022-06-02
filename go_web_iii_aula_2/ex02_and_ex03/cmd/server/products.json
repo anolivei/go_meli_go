@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "TV",
+    "type": "Electronics",
+    "count": 100,
+    "price": 1199.99
+  },
+  {
+    "id": 2,
+    "name": "notebook",
+    "type": "Electronics",
+    "count": 100,
+    "price": 5199.9
+  },
+  {
+    "id": 3,
+    "name": "arroz",
+    "type": "comida",
+    "count": 200,
+    "price": 20.25
+  }
+]
