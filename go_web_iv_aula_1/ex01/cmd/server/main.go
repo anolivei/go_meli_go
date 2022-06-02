@@ -1,17 +1,15 @@
 package main
 
-//a. O repositório, serviço e handler devem ser importados e injetados
 import (
 	"log"
 
-	"github.com/anolivei/go_meli_go/tree/main/go_web_iii_aula_2/ex02/cmd/server/handler"
-	"github.com/anolivei/go_meli_go/tree/main/go_web_iii_aula_2/ex02/internal/products"
-	"github.com/anolivei/go_meli_go/tree/main/go_web_iii_aula_2/ex02/pkg/store"
+	"github.com/anolivei/go_meli_go/tree/main/go_web_iv_aula_1/ex01/cmd/server/handler"
+	"github.com/anolivei/go_meli_go/tree/main/go_web_iv_aula_1/ex01/internal/products"
+	"github.com/anolivei/go_meli_go/tree/main/go_web_iv_aula_1/ex01/pkg/store"
 	"github.com/gin-gonic/gin"
 	"github.com/joho/godotenv"
 )
 
-//b. O roteador deve ser implementado para os diferentes endpoints
 func main() {
 	err := godotenv.Load("../../.env")
 	if err != nil {

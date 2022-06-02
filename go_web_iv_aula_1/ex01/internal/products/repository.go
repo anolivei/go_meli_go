@@ -1,9 +1,8 @@
-//a. O arquivo repository.go deve ser criado
 package products
 
 import (
 	"fmt"
-	"github.com/anolivei/go_meli_go/tree/main/go_web_iii_aula_2/ex02/pkg/store"
+	"github.com/anolivei/go_meli_go/tree/main/go_web_iv_aula_1/ex01/pkg/store"
 )
 
 type Product struct {
