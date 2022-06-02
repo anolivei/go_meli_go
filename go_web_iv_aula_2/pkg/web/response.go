@@ -4,7 +4,7 @@ import "strconv"
 
 type Response struct {
 	Code string `json:"code"`
-	Data interface{} `json: "data,omitempty"`
+	Data interface{} `json:"data,omitempty"`
 	Error string `json:"error,omitempty"`
 }
 
