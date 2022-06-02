@@ -11,25 +11,25 @@
 | i | tarde | [ex02](https://github.com/anolivei/go_meli_go/tree/main/go_bases_i/tarde/ex02) | Empréstimo - `switch case` para devolver mensagens |
 | i | tarde | [ex03](https://github.com/anolivei/go_meli_go/tree/main/go_bases_i/tarde/ex03) | A que mês corresponde? - `map` para meses do ano |
 | i | tarde | [ex04](https://github.com/anolivei/go_meli_go/tree/main/go_bases_i/tarde/ex04) | Quantos anos tem - `map` para idades de funcionarios (`for range delete`)|
-| ii | manhã | [ex01](https://github.com/anolivei/go_meli_go/tree/main/go_bases_ii/manha/ex01) | |
-| ii | manhã | [ex02](https://github.com/anolivei/go_meli_go/tree/main/go_bases_ii/manha/ex02) | |
-| ii | manhã | [ex03](https://github.com/anolivei/go_meli_go/tree/main/go_bases_ii/manha/ex03) | |
-| ii | manhã | [ex04](https://github.com/anolivei/go_meli_go/tree/main/go_bases_ii/manha/ex04) | |
-| ii | manhã | [ex05](https://github.com/anolivei/go_meli_go/tree/main/go_bases_ii/manha/ex05) | |
-| ii | tarde | [ex01](https://github.com/anolivei/go_meli_go/tree/main/go_bases_ii/tarde/ex01) | |
-| ii | tarde | [ex02](https://github.com/anolivei/go_meli_go/tree/main/go_bases_ii/tarde/ex02) | |
-| iii | dia 01 |[ex01](https://github.com/anolivei/go_meli_go/tree/main/go_bases_iii/dia_1/ex01) | |
-| iii | dia 01 | [ex02](https://github.com/anolivei/go_meli_go/tree/main/go_bases_iii/dia_1/ex02) | |
-| iii | dia 02 | [ex01](https://github.com/anolivei/go_meli_go/tree/main/go_bases_iii/dia_2/ex01) | |
-| iii | dia 02 | [ex02](https://github.com/anolivei/go_meli_go/tree/main/go_bases_iii/dia_2/ex02) | |
-| iii | dia 02 | [ex03](https://github.com/anolivei/go_meli_go/tree/main/go_bases_iii/dia_2/ex03) | |
-| iii | dia 02 | [ex04](https://github.com/anolivei/go_meli_go/tree/main/go_bases_iii/dia_2/ex04) | |
-| iv | dia 01 | [ex01](https://github.com/anolivei/go_meli_go/tree/main/go_bases_iv/dia_1/ex01)| |
-| iv | dia 01 | [ex02](https://github.com/anolivei/go_meli_go/tree/main/go_bases_iv/dia_1/ex02) | |
-| iv | dia 01 | [ex03](https://github.com/anolivei/go_meli_go/tree/main/go_bases_iv/dia_1/ex03) | |
-| iv | dia 01 | [ex04](https://github.com/anolivei/go_meli_go/tree/main/go_bases_iv/dia_1/ex04) | |
-| iv | dia 02 | [ex01](https://github.com/anolivei/go_meli_go/tree/main/go_bases_iv/dia_2/ex01) | |
-| iv | dia 02 | [ex02](https://github.com/anolivei/go_meli_go/tree/main/go_bases_iv/dia_2/ex02) | |
+| ii | manhã | [ex01](https://github.com/anolivei/go_meli_go/tree/main/go_bases_ii/manha/ex01) | Impostos de salário (`func`) |
+| ii | manhã | [ex02](https://github.com/anolivei/go_meli_go/tree/main/go_bases_ii/manha/ex02) | Calcular média - função com número dinâmico de parâmetros: Elipsis (`...`) |
+| ii | manhã | [ex03](https://github.com/anolivei/go_meli_go/tree/main/go_bases_ii/manha/ex03) | Calcular salário (`switch case const`) |
+| ii | manhã | [ex04](https://github.com/anolivei/go_meli_go/tree/main/go_bases_ii/manha/ex04) | Cálculo de estatísticas - multi retorno |
+| ii | manhã | [ex05](https://github.com/anolivei/go_meli_go/tree/main/go_bases_ii/manha/ex05) | Cálculo da quantidade de alimento - retorno de função |
+| ii | tarde | [ex01](https://github.com/anolivei/go_meli_go/tree/main/go_bases_ii/tarde/ex01) | Registro de estudantes - structs |
+| ii | tarde | [ex02](https://github.com/anolivei/go_meli_go/tree/main/go_bases_ii/tarde/ex02) | Produtos de e-commerce - structs e interfaces (`append`)|
+| iii | dia 01 |[ex01](https://github.com/anolivei/go_meli_go/tree/main/go_bases_iii/dia_1/ex01) | Guardar arquivo (`fmt.Sprintf os.OpenFile os.O_APPEND os.O_WRONLY os.O_CREATE`)|
+| iii | dia 01 | [ex02](https://github.com/anolivei/go_meli_go/tree/main/go_bases_iii/dia_1/ex02) | Ler arquivo (`bufio.NewReader(file) ReadString strings.Split(str1, str2) os.Open(file)`) |
+| iii | dia 02 | [ex01](https://github.com/anolivei/go_meli_go/tree/main/go_bases_iii/dia_2/ex01) | Rede social -  ponteiros |
+| iii | dia 02 | [ex02](https://github.com/anolivei/go_meli_go/tree/main/go_bases_iii/dia_2/ex02) | E-commerce - ponteiros (`make`)|
+| iii | dia 02 | [ex03](https://github.com/anolivei/go_meli_go/tree/main/go_bases_iii/dia_2/ex03) | Calcular Preço - chan e go routines (`make(chan type) go func`) |
+| iii | dia 02 | [ex04](https://github.com/anolivei/go_meli_go/tree/main/go_bases_iii/dia_2/ex04) | Ordenamento - chan, go routines e defer |
+| iv | dia 01 | [ex01](https://github.com/anolivei/go_meli_go/tree/main/go_bases_iv/dia_1/ex01)| Imposto sobre o salário - tratamento de erros com `Error()` |
+| iv | dia 01 | [ex02](https://github.com/anolivei/go_meli_go/tree/main/go_bases_iv/dia_1/ex02) | Imposto sobre o salário - tratamento de erros com `errors.New()` |
+| iv | dia 01 | [ex03](https://github.com/anolivei/go_meli_go/tree/main/go_bases_iv/dia_1/ex03) | Imposto sobre o salário - tratamento de erros com `fmt.Errorf()`|
+| iv | dia 01 | [ex04](https://github.com/anolivei/go_meli_go/tree/main/go_bases_iv/dia_1/ex04) | Imposto sobre o salário - tratamento de erros com `errors.New(), fmt.Errorf() e errors.Unwrap()` |
+| iv | dia 02 | [ex01](https://github.com/anolivei/go_meli_go/tree/main/go_bases_iv/dia_2/ex01) | Dados dos clientes - panic |
+| iv | dia 02 | [ex02](https://github.com/anolivei/go_meli_go/tree/main/go_bases_iv/dia_2/ex02) | Registrando clientes - panic, defer e recover |
 
 ## Go Web
 
