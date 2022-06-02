@@ -51,4 +51,4 @@
 | iii | aula 02 | [ex01](https://github.com/anolivei/go_meli_go/tree/main/go_web_iii/aula_2/ex01) | configuração do .env (variáveis de ambiente na API) utilizando a lib [godotenv](https://github.com/joho/godotenv) |
 | iii | aula 02 | [ex02 e ex03](https://github.com/anolivei/go_meli_go/tree/main/go_web_iii/aula_2/ex02_and_ex03) | guardar e ler informações de um arquivo .json (banco de dados em disco)  |
 | iv | aula 01 | [ex01](https://github.com/anolivei/go_meli_go/tree/main/go_web_iv/aula_1/ex01) | respostas genéricas (web package com response.go) para devolver respostas em json com status code e erro/json de retorno |
-| iv | aula 02 | [ex01](https://github.com/anolivei/go_meli_go/tree/main/go_web_iv/aula_2) | Documentação da API utilizando a lib [swagger](https://github.com/swaggo/gin-swagger) |
+| iv | aula 02 | [ex01](https://github.com/anolivei/go_meli_go/tree/main/go_web_iv/aula_2/ex01) | Documentação da API utilizando a lib [swagger](https://github.com/swaggo/gin-swagger) |
