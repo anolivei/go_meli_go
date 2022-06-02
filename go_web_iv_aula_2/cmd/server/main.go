@@ -2,16 +2,17 @@ package main
 
 import (
 	"log"
+	"os"
 
 	"github.com/anolivei/go_meli_go/tree/main/go_web_iv_aula_2/cmd/server/handler"
+	"github.com/anolivei/go_meli_go/tree/main/go_web_iv_aula_2/docs"
 	"github.com/anolivei/go_meli_go/tree/main/go_web_iv_aula_2/internal/products"
 	"github.com/anolivei/go_meli_go/tree/main/go_web_iv_aula_2/pkg/store"
-	"github.com/anolivei/go_meli_go/tree/main/go_web_iv_aula_2/cmd/server/docs"
 
-	ginSwagger "github.com/swaggo/gin-swagger"
-	swaggerfiles "github.com/swaggo/files"
 	"github.com/gin-gonic/gin"
 	"github.com/joho/godotenv"
+	swaggerfiles "github.com/swaggo/files"
+	ginSwagger "github.com/swaggo/gin-swagger"
 )
 
 // @title MELI Bootcamp API
@@ -34,13 +35,13 @@ func main() {
 	service := products.NewService(repo)
 	p := handler.NewProduct(service)
 	r := gin.Default()
-	docs.SwaggerInfo.BasePath = "/products"
+	docs.SwaggerInfo.Host = os.Getenv("HOST")
+	r.GET("/docs/*any", ginSwagger.WrapHandler(swaggerfiles.Handler))
 	pr := r.Group("/products")
 	pr.POST("/", p.Store())
 	pr.GET("/", p.GetAll())
 	pr.PUT("/:id", p.Update())
 	pr.PATCH("/:id", p.UpdateName())
 	pr.DELETE("/:id", p.Delete())
-	r.GET("/swagger/*any", ginSwagger.WrapHandler(swaggerfiles.Handler))
 	r.Run()
 }
