@@ -1,7 +1,11 @@
+<p align="center">
+<img src="https://raw.githubusercontent.com/egonelbre/gophers/10cc13c5e29555ec23f689dc985c157a8d4692ab/vector/fairy-tale/witch-learning.svg" width="250"/>
+</p>
+
 # Bootcamp de Go do Mercado Livre
 
 ## Go Bases
-| modulo | aula | exercício | assunto |
+| módulo | aula | exercício | assunto |
 |--------|------|-----------|---------|
 | i | manhã | [ex01](https://github.com/anolivei/go_meli_go/tree/main/go_bases_i/manha/ex01) | Imprimindo nome e idade na tela |
 | i | manhã | [ex02](https://github.com/anolivei/go_meli_go/tree/main/go_bases_i/manha/ex02) | Clima - imprimindo três tipo de variávies na tela |
@@ -28,12 +32,11 @@
 | iv | dia 01 | [ex02](https://github.com/anolivei/go_meli_go/tree/main/go_bases_iv/dia_1/ex02) | Imposto sobre o salário - tratamento de erros com `errors.New()` |
 | iv | dia 01 | [ex03](https://github.com/anolivei/go_meli_go/tree/main/go_bases_iv/dia_1/ex03) | Imposto sobre o salário - tratamento de erros com `fmt.Errorf()`|
 | iv | dia 01 | [ex04](https://github.com/anolivei/go_meli_go/tree/main/go_bases_iv/dia_1/ex04) | Imposto sobre o salário - tratamento de erros com `errors.New(), fmt.Errorf() e errors.Unwrap()` |
-| iv | dia 02 | [ex01](https://github.com/anolivei/go_meli_go/tree/main/go_bases_iv/dia_2/ex01) | Dados dos clientes - panic |
-| iv | dia 02 | [ex02](https://github.com/anolivei/go_meli_go/tree/main/go_bases_iv/dia_2/ex02) | Registrando clientes - panic, defer e recover |
+| iv | dia 02 | [ex01](https://github.com/anolivei/go_meli_go/tree/main/go_bases_iv/dia_2/ex01) | Dados dos clientes - `panic` |
+| iv | dia 02 | [ex02](https://github.com/anolivei/go_meli_go/tree/main/go_bases_iv/dia_2/ex02) | Registrando clientes - `panic, defer e recover` |
 
 ## Go Web
-
-| modulo | aula | exercício | assunto |
+| módulo | aula | exercício | assunto |
 |--------|------|-----------|---------|
 | i | aula 01 | [ex01](https://github.com/anolivei/go_meli_go/tree/main/go_web_i/aula_1/ex01) | Estruturar um JSON usando [Marshal](https://pkg.go.dev/encoding/json#Marshal) do [json](https://pkg.go.dev/encoding/json) |
 | i | aula 01 | [ex02](https://github.com/anolivei/go_meli_go/tree/main/go_web_i/aula_1/ex02) | "Hello {nome}" método GET na API utilizando [gin](https://github.com/gin-gonic/gin) |
