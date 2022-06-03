@@ -8,7 +8,7 @@
 | módulo | aula | exercício | assunto |
 |--------|------|-----------|---------|
 | i | manhã | [ex01](https://github.com/anolivei/go_meli_go/tree/main/go_bases_i/manha/ex01) | Imprimindo nome e idade na tela |
-| i | manhã | [ex02](https://github.com/anolivei/go_meli_go/tree/main/go_bases_i/manha/ex02) | Clima - imprimindo três tipo de variávies na tela |
+| i | manhã | [ex02](https://github.com/anolivei/go_meli_go/tree/main/go_bases_i/manha/ex02) | Clima - imprimindo três tipos de variávies na tela |
 | i | manhã | [ex03](https://github.com/anolivei/go_meli_go/tree/main/go_bases_i/manha/ex03) | Declaração de variáveis - fazer correções |
 | i | manhã | [ex04](https://github.com/anolivei/go_meli_go/tree/main/go_bases_i/manha/ex04) | Tipos de dados - fazer correções |
 | i | tarde | [ex01](https://github.com/anolivei/go_meli_go/tree/main/go_bases_i/tarde/ex01) | Letras de uma palavra - imprimir quantidade de letras e letras de uma palavra (`len, for e Args`) |
