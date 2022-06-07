@@ -2,8 +2,8 @@ package main
 
 //a. O repositório, serviço e handler devem ser importados e injetados
 import (
-	"github.com/anolivei/go_meli_go/tree/main/go_web_ii_aula_2/ex02/cmd/server/handler"
-	"github.com/anolivei/go_meli_go/tree/main/go_web_ii_aula_2/ex02/internal/products"
+	"github.com/anolivei/go_meli_go/tree/main/go_web_ii/aula_2/ex02/cmd/server/handler"
+	"github.com/anolivei/go_meli_go/tree/main/go_web_ii/aula_2/ex02/internal/products"
 	"github.com/gin-gonic/gin"
 )
 

@@ -3,7 +3,7 @@ package handler
 import (
 	"net/http"
 
-	"github.com/anolivei/go_meli_go/tree/main/go_web_ii_aula_2/ex02/internal/products"
+	"github.com/anolivei/go_meli_go/tree/main/go_web_ii/aula_2/ex02/internal/products"
 	"github.com/gin-gonic/gin"
 )
 

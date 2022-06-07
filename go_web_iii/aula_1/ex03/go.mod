@@ -1,4 +1,4 @@
-module github.com/anolivei/go_meli_go/tree/main/go_web_iii_aula_1/ex03
+module github.com/anolivei/go_meli_go/tree/main/go_web_iii/aula_1/ex03
 
 go 1.18
 

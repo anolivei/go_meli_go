@@ -6,8 +6,8 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/anolivei/go_meli_go/tree/main/go_web_iv_aula_1/ex01/internal/products"
-	"github.com/anolivei/go_meli_go/tree/main/go_web_iv_aula_1/ex01/pkg/web"
+	"github.com/anolivei/go_meli_go/tree/main/go_web_iv/aula_1/ex01/internal/products"
+	"github.com/anolivei/go_meli_go/tree/main/go_web_iv/aula_1/ex01/pkg/web"
 	"github.com/gin-gonic/gin"
 )
 

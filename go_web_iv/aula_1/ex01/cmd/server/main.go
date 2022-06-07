@@ -3,9 +3,9 @@ package main
 import (
 	"log"
 
-	"github.com/anolivei/go_meli_go/tree/main/go_web_iv_aula_1/ex01/cmd/server/handler"
-	"github.com/anolivei/go_meli_go/tree/main/go_web_iv_aula_1/ex01/internal/products"
-	"github.com/anolivei/go_meli_go/tree/main/go_web_iv_aula_1/ex01/pkg/store"
+	"github.com/anolivei/go_meli_go/tree/main/go_web_iv/aula_1/ex01/cmd/server/handler"
+	"github.com/anolivei/go_meli_go/tree/main/go_web_iv/aula_1/ex01/internal/products"
+	"github.com/anolivei/go_meli_go/tree/main/go_web_iv/aula_1/ex01/pkg/store"
 	"github.com/gin-gonic/gin"
 	"github.com/joho/godotenv"
 )

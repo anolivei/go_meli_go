@@ -3,7 +3,7 @@ package products
 
 import (
 	"fmt"
-	"github.com/anolivei/go_meli_go/tree/main/go_web_iii_aula_2/ex02/pkg/store"
+	"github.com/anolivei/go_meli_go/tree/main/go_web_iii/aula_2/ex02/pkg/store"
 )
 
 //b. A estrutura da entidade deve ser criada

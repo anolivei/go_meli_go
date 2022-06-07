@@ -4,10 +4,10 @@ import (
 	"log"
 	"os"
 
-	"github.com/anolivei/go_meli_go/tree/main/go_web_iv_aula_2/cmd/server/handler"
-	"github.com/anolivei/go_meli_go/tree/main/go_web_iv_aula_2/docs"
-	"github.com/anolivei/go_meli_go/tree/main/go_web_iv_aula_2/internal/products"
-	"github.com/anolivei/go_meli_go/tree/main/go_web_iv_aula_2/pkg/store"
+	"github.com/anolivei/go_meli_go/tree/main/go_web_iv/aula_2/cmd/server/handler"
+	"github.com/anolivei/go_meli_go/tree/main/go_web_iv/aula_2/docs"
+	"github.com/anolivei/go_meli_go/tree/main/go_web_iv/aula_2/internal/products"
+	"github.com/anolivei/go_meli_go/tree/main/go_web_iv/aula_2/pkg/store"
 
 	"github.com/gin-gonic/gin"
 	"github.com/joho/godotenv"
