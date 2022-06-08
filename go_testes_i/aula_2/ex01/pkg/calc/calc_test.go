@@ -18,7 +18,7 @@ func TestSum(t *testing.T) {
 			expectedResult)
 	}*/
 	// Using Testify
-	assert.Equal(t, expectedResult, result, "devem ser iguais")
+	assert.Equal(t, expectedResult, result, "a soma está errada")
 } 
 
 func TestSub(t *testing.T) {
@@ -32,7 +32,7 @@ func TestSub(t *testing.T) {
 			expectedResult)
 	}*/
 	// Using Testify
-	assert.Equal(t, expectedResult, result, "devem ser iguais")
+	assert.Equal(t, expectedResult, result, "a subtração está errada")
 }
 
 func TestMultiply(t *testing.T) {
@@ -46,7 +46,7 @@ func TestMultiply(t *testing.T) {
 			expectedResult)
 	}*/
 	// Using Testify
-	assert.Equal(t, expectedResult, result, "devem ser iguais")
+	assert.Equal(t, expectedResult, result, "a multiplicação está errada")
 }
 
 func TestDivision(t *testing.T) {
@@ -60,5 +60,5 @@ func TestDivision(t *testing.T) {
 			expectedResult)
 	}*/
 	// Using Testify
-	assert.Equal(t, expectedResult, result, "devem ser iguais")
+	assert.Equal(t, expectedResult, result, "a divisão está errada")
 }
