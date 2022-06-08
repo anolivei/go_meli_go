@@ -63,6 +63,8 @@
 | i | aula 01 | [ex02](https://github.com/anolivei/go_meli_go/tree/main/go_testes_i/aula_1/ex02) | Teste funcional |
 | i | aula 01 | [ex03](https://github.com/anolivei/go_meli_go/tree/main/go_testes_i/aula_1/ex03) | Teste de integração |
 | i | aula 01 | [ex04](https://github.com/anolivei/go_meli_go/tree/main/go_testes_i/aula_1/ex04) | Dimensões prioritárias de qualidade no MELI |
-| i | aula 02 | [ex01](https://github.com/anolivei/go_meli_go/tree/main/go_testes_i/aula_2/ex01) | Teste Unitário - Função Sub usando o package [testing](https://pkg.go.dev/testing) |
-| i | aula 02 | [ex02](https://github.com/anolivei/go_meli_go/tree/main/go_testes_i/aula_2/ex02) | Teste Unitário - Função de Ordenar usando o package testing |
-| i | aula 02 | [ex03](https://github.com/anolivei/go_meli_go/tree/main/go_testes_i/aula_2/ex03) | Teste Unitário - Função de Dividir usando o package testing |
+| i | aula 02 | [ex01](https://github.com/anolivei/go_meli_go/tree/main/go_testes_i/aula_2/ex01) | Teste Unitário - Função Sub usando o package [testing](https://pkg.go.dev/testing) e [testify](https://github.com/stretchr/testify) |
+| i | aula 02 | [ex02](https://github.com/anolivei/go_meli_go/tree/main/go_testes_i/aula_2/ex02) | Teste Unitário - Função de Ordenar |
+| i | aula 02 | [ex03](https://github.com/anolivei/go_meli_go/tree/main/go_testes_i/aula_2/ex03) | Teste Unitário - Função de Dividir |
+| ii | aula 01 | [ex01](https://github.com/anolivei/go_meli_go/tree/main/go_testes_ii/aula_1/ex01) | Testes Unitário GetAll() |
+| ii | aula 01 | [ex02](https://github.com/anolivei/go_meli_go/tree/main/go_testes_ii/aula_1/ex02) | Testes Unitário UpdateName() |
