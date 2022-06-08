@@ -10,7 +10,11 @@ import (
 func TestGetAll(t *testing.T) {
 	myStubProduct := store.New(store.FileType, "./test.json")
 	product := NewRepository(myStubProduct)
-	expectedProduct := []Product(nil)
+
+	var expectedProduct []Product
+	expectedProduct = append(
+					expectedProduct,
+					Product{1, "microondas", "eletrodomestico", 200, 525.25})
 
 	result, _ := product.GetAll()
 
