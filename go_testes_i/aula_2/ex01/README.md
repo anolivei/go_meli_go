@@ -6,3 +6,7 @@ Para isto:
 1. Dentro da pasta go-testing crie um arquivo calc.go com a função para testar.
 2. Dentro da pasta go-testing, crie um arquivo calc_test.go com o teste
 projetado.
+
+```shell
+go test ./...
+```
