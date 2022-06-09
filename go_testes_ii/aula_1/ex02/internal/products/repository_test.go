@@ -7,12 +7,17 @@ import (
 	"github.com/anolivei/go_meli_go/tree/main/go_testes_ii/aula_1/ex02/pkg/store"
 )
 
-func TestGetAll(t *testing.T) {
-	var expectedProduct []Product
-	expectedProduct = append(expectedProduct,
-					Product{1, "microondas", "eletrodomestico", 200, 525.25})
+func createTestFile() (store.Store, []Product){
+	var prod []Product
+	prod = append(prod,
+				Product{1, "microondas", "eletrodomestico", 200, 525.25})
 	myStubProduct := store.New(store.FileType, "./test.json")
-	myStubProduct.Write(expectedProduct)
+	myStubProduct.Write(prod)
+	return myStubProduct, prod
+}
+
+func TestGetAll(t *testing.T) {
+	myStubProduct, expectedProduct := createTestFile()
 
 	product := NewRepository(myStubProduct)
 
@@ -22,11 +27,7 @@ func TestGetAll(t *testing.T) {
 }
 
 func TestUpdateName(t *testing.T) {
-	var prod []Product
-	prod = append(prod,
-				Product{1, "microondas", "eletrodomestico", 200, 525.25})
-	beforeUpdate := store.New(store.FileType, "./test.json")
-	beforeUpdate.Write(prod)
+	beforeUpdate, _ := createTestFile()
 
 	productBefore := NewRepository(beforeUpdate)
 	afterUpdate, err := productBefore.UpdateName(1, "torradeira")
@@ -41,11 +42,7 @@ func TestUpdateName(t *testing.T) {
 }
 
 func TestUpdateNameNotFound(t *testing.T) {
-	var prod []Product
-	prod = append(prod,
-				Product{1, "microondas", "eletrodomestico", 200, 525.25})
-	beforeUpdate := store.New(store.FileType, "./test.json")
-	beforeUpdate.Write(prod)
+	beforeUpdate, _ := createTestFile()
 
 	productBefore := NewRepository(beforeUpdate)
 	afterUpdate, err := productBefore.UpdateName(2, "torradeira")
