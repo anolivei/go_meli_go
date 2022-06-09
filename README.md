@@ -70,3 +70,7 @@
 | ii | aula 01 | [ex02](https://github.com/anolivei/go_meli_go/tree/main/go_testes_ii/aula_1/ex02) | Testes Unitário na API - UpdateName() |
 | ii | aula 02 | [ex01](https://github.com/anolivei/go_meli_go/tree/main/go_testes_ii/aula_2/ex01) | Testes de integração na API - Service/Repo/Db Update() |
 | ii | aula 02 | [ex02](https://github.com/anolivei/go_meli_go/tree/main/go_testes_ii/aula_2/ex02) | Testes de integração na API - Service/Repo/Db Delete() |
+| iii | aula 01 | [ex01](https://github.com/anolivei/go_meli_go/tree/main/go_testes_iii/aula_1/ex01) | Melhorar o código com [Golangci-lint](https://golangci-lint.run/) |
+| iii | aula 01 | [ex02](https://github.com/anolivei/go_meli_go/tree/main/go_testes_iii/aula_1/ex02) | Medir a cobertura (`go test -v --cover ./...`)
+| iii | aula 01 | [ex03](https://github.com/anolivei/go_meli_go/tree/main/go_testes_iii/aula_1/ex03) | Aumentar a cobertura |
+| iii | aula 02 | [ex01](https://github.com/anolivei/go_meli_go/tree/main/go_testes_iii/aula_2/ex01) | |
