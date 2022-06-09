@@ -31,6 +31,7 @@ type FileStore struct {
 }
 
 func (fs *FileStore) Read(data interface{}) error {
+	fs.readWasCalled = true
 	file, err := os.ReadFile(fs.FileName)
 	if err != nil {
 		return err
@@ -39,7 +40,6 @@ func (fs *FileStore) Read(data interface{}) error {
 }
 
 func (fs *FileStore) Write(data interface{}) error {
-	fs.readWasCalled = true
 	fileData, err := json.MarshalIndent(data, "", "  ")
 	if err != nil {
 		return err
