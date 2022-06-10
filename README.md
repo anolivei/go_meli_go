@@ -73,4 +73,6 @@
 | iii | aula 01 | [ex01](https://github.com/anolivei/go_meli_go/tree/main/go_testes_iii/aula_1/ex01) | Melhorar o código com [Golangci-lint](https://golangci-lint.run/) |
 | iii | aula 01 | [ex02](https://github.com/anolivei/go_meli_go/tree/main/go_testes_iii/aula_1/ex02) | Medir a cobertura (`go test -v --cover ./...`)
 | iii | aula 01 | [ex03](https://github.com/anolivei/go_meli_go/tree/main/go_testes_iii/aula_1/ex03) | Aumentar a cobertura |
-| iii | aula 02 | [ex01](https://github.com/anolivei/go_meli_go/tree/main/go_testes_iii/aula_2/ex01) | |
+| iii | aula 02 | [ex01](https://github.com/anolivei/go_meli_go/tree/main/go_testes_iii/aula_2/ex01) | Functional Testing Update() |
+| iii | aula 02 | [ex02](https://github.com/anolivei/go_meli_go/tree/main/go_testes_iii/aula_2/ex02) | Functional Testing Delete() |
+| iii | aula 02 | [ex02](https://github.com/anolivei/go_meli_go/tree/main/go_testes_iii/aula_2/ex03) | Realizar TDD |
