@@ -37,7 +37,6 @@ func TestUpdateName(t *testing.T) {
 					productAfter,
 					Product{1, "torradeira", "eletrodomestico", 200, 525.25})
 	assert.Equal(t, productAfter[0], afterUpdate)
-	//assert.True(t, beforeUpdate.ReadWasCalled())
 	assert.Nil(t, err)
 }
 
@@ -53,6 +52,5 @@ func TestUpdateNameNotFound(t *testing.T) {
 					Product{ID:0, Name:"", Typee:"", Count:0, Price:0})
 
 	assert.Equal(t, productAfter[0], afterUpdate)
-	//assert.True(t, beforeUpdate.ReadWasCalled())
 	assert.NotNil(t, err)
 }
