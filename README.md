@@ -80,8 +80,7 @@
 ## Go Database
 | módulo | aula | assunto |
 |--------|------|---------|
-| i | [aula 01](https://github.com/anolivei/go_meli_go/tree/main/go_db_i/aula_1) | CAP (Consistência, Disponibilidade e Tolerância de particionamento) e DER (Diagrama de 
-Relacionamento de Entidade) |
+| i | [aula 01](https://github.com/anolivei/go_meli_go/tree/main/go_db_i/aula_1) | CAP (Consistência, Disponibilidade e Tolerância de particionamento) e DER (Diagrama de Relacionamento de Entidade) |
 | i | [aula 02](https://github.com/anolivei/go_meli_go/tree/main/go_db_i/aula_2) | `SELECT, WHERE, ORDER BY, ASC, DESC, AND, OR, LIKE, NOT LIKE, BETWEEN, LIMIT, OFFSET, DISTINCT, COUNT, MIN, MAX, SUM, AVG` |
 | ii | [aula 01](https://github.com/anolivei/go_meli_go/tree/main/go_db_ii/aula_1) | `INNER JOIN, LEFT JOIN, RIGHT JOIN, GROUP BY, HAVING` e subconsultas|
 | ii | [aula 02](https://github.com/anolivei/go_meli_go/tree/main/go_db_ii/aula_2) | |
