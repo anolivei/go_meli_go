@@ -85,3 +85,4 @@
 | ii | [aula 01](https://github.com/anolivei/go_meli_go/tree/main/go_db_ii/aula_1) | Banco de dados SQL - `INNER JOIN, LEFT JOIN, RIGHT JOIN, GROUP BY, HAVING` e subconsultas|
 | ii | [aula 02](https://github.com/anolivei/go_meli_go/tree/main/go_db_ii/aula_2) | Banco de dados SQL - `INSERT UPDATE DELETE TEMPORARY TABLE, INDEX` |
 | iii | [aula 01](https://github.com/anolivei/go_meli_go/tree/main/go_db_iii/aula_1) | Banco de dados NoSQL - mongodb |
+| iii | [aula 02](https://github.com/anolivei/go_meli_go/tree/main/go_db_iii/aula_2) | Banco de dados NoSQL - mongodb |

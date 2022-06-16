@@ -8,6 +8,7 @@
 .env
 .DS_Store
 .data
+pass.txt
 
 # Test binary, built with `go test -c`
 *.test
