@@ -51,7 +51,6 @@ func (m mariaDBRepository) GetAll() ([]Product, error) {
 }
 
 func (m mariaDBRepository) Store(
-	id int,
 	name,
 	typee string,
 	count int,

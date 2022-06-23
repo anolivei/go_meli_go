@@ -15,9 +15,8 @@ type Product struct {
 
 type Repository interface {
 	GetAll() ([]Product, error)
-	Store(id int, name string, typee string, count int,
+	Store(name string, typee string, count int,
 		price float64) (Product, error)
-	LastID() (int, error)
 	Update(id int, name string, typee string, count int,
 		price float64) (Product, error)
 	UpdateName(id int, name string) (Product, error)
@@ -38,22 +37,11 @@ func (r *repository) GetAll() ([]Product, error) {
 	return ps, nil
 }
 
-func (r *repository) LastID() (int, error) {
-	var ps []Product
-	if err := r.db.Read(&ps); err != nil {
-		return 0, err
-	}
-	if len(ps) == 0 {
-		return 0, nil
-	}
-	return ps[len(ps) - 1].ID, nil
-}
-
-func (r *repository) Store(id int, name string, typee string, count int,
+func (r *repository) Store(name string, typee string, count int,
 	price float64) (Product, error) {
 	var ps []Product
 	r.db.Read(&ps)
-	p := Product{id, name, typee, count, price}
+	p := Product{Name: name, Typee: typee, Count: count, Price: price}
 	ps = append(ps, p)
 	if err := r.db.Write(ps); err != nil {
 		return Product{}, err
